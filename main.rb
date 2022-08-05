@@ -39,7 +39,8 @@ def generate_array(number)
   number.times do
     array.push(rand(1000))
   end
+  p array
   array
 end
 
-p merge_sort(generate_array(1000))
+p merge_sort(generate_array(50))
